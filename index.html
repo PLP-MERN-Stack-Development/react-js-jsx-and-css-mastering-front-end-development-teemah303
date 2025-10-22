@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="React.js, JSX, and Tailwind CSS - Mastering Front-End Development" />
+    <title>React Week 3 Assignment - Frontend Mastery</title>
+    
+    <!-- Preload important resources -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Open Graph meta tags for better sharing -->
+    <meta property="og:title" content="React Week 3 Assignment" />
+    <meta property="og:description" content="Mastering Front-End Development with React.js, JSX, and Tailwind CSS" />
+    <meta property="og:type" content="website" />
+    
+    <!-- Theme color for mobile browsers -->
+    <meta name="theme-color" content="#3B82F6" />
+    <meta name="msapplication-TileColor" content="#3B82F6">
+    
+    <!-- Apple specific meta tags -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="React Assignment">
+  </head>
+  <body class="h-full bg-gray-50 dark:bg-gray-900 transition-colors duration-200">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+    
+    <!-- Loading fallback -->
+    <noscript>
+      <div class="flex items-center justify-center min-h-screen bg-gray-50">
+        <div class="text-center p-8">
+          <h1 class="text-2xl font-bold text-gray-900 mb-4">JavaScript Required</h1>
+          <p class="text-gray-600">
+            This React application requires JavaScript to function properly. 
+            Please enable JavaScript in your browser settings.
+          </p>
+        </div>
+      </div>
+    </noscript>
+    
+    <!-- Loading indicator for slow connections -->
+    <style>
+      #root:empty {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      }
+      
+      #root:empty::after {
+        content: 'Loading React Application...';
+        color: white;
+        font-size: 1.25rem;
+        font-weight: 500;
+      }
+      
+      /* Smooth loading animation */
+      @keyframes fadeIn {
+        from { opacity: 0; }
+        to { opacity: 1; }
+      }
+      
+      #root > * {
+        animation: fadeIn 0.5s ease-in;
+      }
+    </style>
+  </body>
+</html>
