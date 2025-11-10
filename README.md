@@ -281,7 +281,7 @@ teemah303
 
 🎓 PLP MERN Stack Development Student
 
-💼 Portfolio: [Coming Soon]
+💼 Portfolio: [https://github.com/teemah303/teeshub-portfolio.git]
 
 📧 Email: [amir.m1700769@st.futminna.edu.ng]
 
