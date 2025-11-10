@@ -1,3 +1,4 @@
+cat > src/pages/TaskManager.jsx << 'EOF'
 import { useState } from 'react'
 import { useLocalStorage } from '../hooks/useLocalStorage'
 import Card from '../components/Card'
@@ -204,3 +205,4 @@ const TaskManager = () => {
 }
 
 export default TaskManager
+EOF
