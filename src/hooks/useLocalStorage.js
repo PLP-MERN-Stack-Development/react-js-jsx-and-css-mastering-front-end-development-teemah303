@@ -1,3 +1,8 @@
+# Create hooks directory
+mkdir -p src/hooks
+
+# Create useLocalStorage.js
+cat > src/hooks/useLocalStorage.js << 'EOF'
 import { useState, useEffect } from 'react'
 
 export const useLocalStorage = (key, initialValue) => {
@@ -21,3 +26,4 @@ export const useLocalStorage = (key, initialValue) => {
 
   return [value, setValue]
 }
+EOF
