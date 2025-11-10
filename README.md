@@ -20,13 +20,11 @@ A stunning, modern React application showcasing advanced frontend development sk
 <div align="center">
 
 ### 🏠 Beautiful Home Page
-![Home Page](https://via.placeholder.com/800x450/3B82F6/FFFFFF?text=Modern+Home+Page+with+Glass+Morphism+Design)
+![Home Page](https://resonant-marzipan-90ea28.netlify.app/)
 
 ### ✅ Advanced Task Manager
-![Task Manager](https://via.placeholder.com/800x450/10B981/FFFFFF?text=Task+Manager+with+Progress+Tracking+%26+Filters)
+![Task Manager](https://resonant-marzipan-90ea28.netlify.app/tasks)
 
-### 🌙 Dark Mode Excellence
-![Dark Mode](https://via.placeholder.com/800x450/1F2937/FFFFFF?text=Beautiful+Dark+Mode+with+Smooth+Transitions)
 
 </div>
 
