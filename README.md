@@ -75,6 +75,7 @@ A stunning, modern React application showcasing advanced frontend development sk
 - 💾 **Local Storage API** - Data persistence
 - 🪝 **Custom Hooks** - Reusable logic
 -
+📁 **PROJECT STRUCTURE
 -  week3-react-project/
 ├── public/ # Static assets
 ├── src/
@@ -359,6 +360,4 @@ Upload them to your repository in a docs/ folder
 
 Update the image links in the README
 
-Commit and push the changes
-
-## 📁 Project Structure
+Commit and push the chnges
