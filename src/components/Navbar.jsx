@@ -1,3 +1,4 @@
+cat > src/components/Navbar.jsx << 'EOF'
 import { Link, useLocation } from 'react-router-dom'
 import { useTheme } from '../contexts/ThemeContext'
 
@@ -66,3 +67,4 @@ const Navbar = () => {
 }
 
 export default Navbar
+EOF
