@@ -20,10 +20,10 @@ A stunning, modern React application showcasing advanced frontend development sk
 <div align="center">
 
 ### 🏠 Beautiful Home Page
-![Home Page](screenshot-week3t.png)
+![Home Page](screenshot-week3.png)
 
 ### ✅ Advanced Task Manager
-![Task Manager](https://resonant-marzipan-90ea28.netlify.app/tasks)
+![Task Manager](screenshot-week3t.png)
 
 
 </div>
